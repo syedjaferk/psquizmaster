@@ -1,0 +1,1 @@
+{"question": "What is Docker primarily used for?", "options": ["Managing physical servers", "Containerizing applications to ensure portability", "Providing cloud-based services", "Monitoring network traffic"], "correct_option_id": 1, "explanation": "Docker is used for containerizing applications to ensure portability across different environments."}

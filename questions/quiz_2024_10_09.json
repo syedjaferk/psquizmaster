@@ -1,0 +1,1 @@
+{"question": "How do you remove all unused Docker images?", "options": ["Use the `docker image prune` command", "Use the `docker rmi -a` command", "Use the `docker cleanup` command", "Use the `docker image delete` command"], "correct_option_id": 0, "explanation": "The `docker image prune` command removes all unused Docker images from the system."}

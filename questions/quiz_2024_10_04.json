@@ -1,0 +1,1 @@
+{"question": "What command do you use to remove all stopped containers?", "options": ["Use the `docker rm -f` command", "Use the `docker prune -a` command", "Use the `docker container prune` command", "Use the `docker cleanup` command"], "correct_option_id": 2, "explanation": "The `docker container prune` command removes all stopped containers."}

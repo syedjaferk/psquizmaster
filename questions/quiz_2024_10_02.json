@@ -1,0 +1,1 @@
+{"question": "How do you remove a Docker image?", "options": ["Use the `docker delete` command", "Use the `docker rmi` command", "Use the `docker remove` command", "Use the `docker rm` command"], "correct_option_id": 1, "explanation": "The `docker rmi` command is used to remove Docker images."}

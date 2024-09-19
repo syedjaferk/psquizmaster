@@ -1,0 +1,1 @@
+{"question": "What is the function of the `docker volume` command?", "options": ["To manage Docker volumes used for persistent storage", "To build Docker images", "To list running containers", "To start new containers"], "correct_option_id": 0, "explanation": "The `docker volume` command is used to manage Docker volumes, which are used for persistent storage."}

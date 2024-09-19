@@ -1,0 +1,1 @@
+{"question": "What is the purpose of the `docker commit` command?", "options": ["To create a new Docker image from a container\u2019s changes", "To start a new container", "To stop a running container", "To remove an existing image"], "correct_option_id": 0, "explanation": "The `docker commit` command creates a new Docker image from the changes made in a container."}

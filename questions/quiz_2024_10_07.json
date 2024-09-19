@@ -1,0 +1,1 @@
+{"question": "How can you list all Docker containers, including stopped ones?", "options": ["Use the `docker ps -a` command", "Use the `docker list` command", "Use the `docker containers` command", "Use the `docker show` command"], "correct_option_id": 0, "explanation": "The `docker ps -a` command lists all Docker containers, including those that are stopped."}

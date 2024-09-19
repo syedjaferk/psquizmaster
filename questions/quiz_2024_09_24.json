@@ -1,0 +1,1 @@
+{"question": "Which command is used to start a Docker container?", "options": ["docker execute", "docker start", "docker init", "docker run"], "correct_option_id": 3, "explanation": "The `docker run` command is used to start a new Docker container."}

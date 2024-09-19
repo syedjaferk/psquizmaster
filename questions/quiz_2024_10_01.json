@@ -1,0 +1,1 @@
+{"question": "How do you find the size of a Docker image?", "options": ["Use the `docker images` command", "Use the `docker inspect` command", "Use the `docker stats` command", "Use the `docker history` command"], "correct_option_id": 0, "explanation": "The `docker images` command shows the size of Docker images in its output."}

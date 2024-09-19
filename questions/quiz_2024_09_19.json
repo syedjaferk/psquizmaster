@@ -1,6 +1,1 @@
-{
-    "question": "Which is the largest planet in our solar system?",
-    "options": ["Earth", "Mars", "Jupiter", "Venus"],
-    "correct_option_id": 2,
-    "explanation": "Jupiter is the largest planet in the solar system."
-}
+{"question": "What is a virtual machine (VM)?", "options": ["A type of physical machine", "A software emulation of a physical computer", "A tool for managing hardware", "A cloud storage service"], "correct_option_id": 1, "explanation": "A virtual machine is a software emulation of a physical computer."}

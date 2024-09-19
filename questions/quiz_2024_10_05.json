@@ -1,0 +1,1 @@
+{"question": "How do you view the logs of a Docker container?", "options": ["Use the `docker logs` command", "Use the `docker output` command", "Use the `docker status` command", "Use the `docker info` command"], "correct_option_id": 0, "explanation": "The `docker logs` command displays the logs of a Docker container."}

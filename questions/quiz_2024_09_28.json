@@ -1,0 +1,1 @@
+{"question": "What is a Docker image?", "options": ["A running instance of a container", "A snapshot of a virtual machine", "A blueprint used to create Docker containers", "A log file for tracking container performance"], "correct_option_id": 2, "explanation": "A Docker image is a blueprint used to create Docker containers, containing the application and its dependencies."}

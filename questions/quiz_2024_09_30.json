@@ -1,0 +1,1 @@
+{"question": "What does the `docker images` command do?", "options": ["Lists all Docker images on the host", "Starts a Docker container", "Shows running containers", "Builds a new Docker image"], "correct_option_id": 0, "explanation": "The `docker images` command lists all Docker images available on the host."}
