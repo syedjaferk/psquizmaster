@@ -1,0 +1,6 @@
+{
+    "question": "Which is the largest planet in our solar system?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "correct_option_id": 2,
+    "explanation": "Jupiter is the largest planet in the solar system."
+}
