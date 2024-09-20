@@ -1,0 +1,1 @@
+{"question": "Which command is used to view the logs of a running container?", "options": ["docker log <container-id>", "docker logs <container-id>", "docker inspect <container-id>", "docker view-logs <container-id>"], "correct_option_id": 1, "explanation": "The correct command to view logs of a running container is `docker logs <container-id>`."}

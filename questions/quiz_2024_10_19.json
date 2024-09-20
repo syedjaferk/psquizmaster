@@ -1,6 +1,1 @@
-{
-    "question": "What does a hypervisor do in virtualization?",
-    "options": ["It allows virtual machines to run on a physical host by managing their resources", "It provides internet access to the virtual machines", "It is responsible for data storage", "It is used for installing operating systems"],
-    "correct_option_id": 0,
-    "explanation": "A hypervisor allows virtual machines to run on a physical host by managing their resources."
-}
+{"question": "Which command removes all stopped containers?", "options": ["docker rm -a", "docker prune containers", "docker container prune", "docker system rm"], "correct_option_id": 2, "explanation": "The `docker container prune` command is used to remove all stopped containers."}

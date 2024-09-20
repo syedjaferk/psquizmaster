@@ -1,0 +1,1 @@
+{"question": "What does the `-f` option do in the `docker rm` command?", "options": ["It removes the container by its name.", "It forces the removal of running containers.", "It finds and deletes unused containers.", "It filters the containers based on status."], "correct_option_id": 1, "explanation": "The `-f` option in `docker rm` forces the removal of a running container."}

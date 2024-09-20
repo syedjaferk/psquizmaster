@@ -1,0 +1,1 @@
+{"question": "Which command will remove all containers, images, and networks not associated with a running container?", "options": ["docker system prune", "docker container rm -a", "docker prune all", "docker remove all --force"], "correct_option_id": 0, "explanation": "The `docker system prune` command removes all unused containers, images, and networks."}
