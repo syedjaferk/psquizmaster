@@ -131,6 +131,78 @@
             "options": ["To manage Docker volumes used for persistent storage", "To build Docker images", "To list running containers", "To start new containers"],
             "correct_option_id": 0,
             "explanation": "The `docker volume` command is used to manage Docker volumes, which are used for persistent storage."
+        },
+        {
+            "question": "Which command is used to view the logs of a running container?",
+            "options": ["docker log <container-id>", "docker logs <container-id>", "docker inspect <container-id>", "docker view-logs <container-id>"],
+            "correct_option_id": 1,
+            "explanation": "The correct command to view logs of a running container is `docker logs <container-id>`."
+        },
+        {
+            "question": "How can you view real-time logs from a running container (tail logs)?",
+            "options": ["docker logs -r <container-id>", "docker logs --continuous <container-id>", "docker logs -f <container-id>", "docker logs --stream <container-id>"],
+            "correct_option_id": 2,
+            "explanation": "The `-f` option in the `docker logs` command is used to follow or tail real-time logs from a running container."
+        },
+        {
+            "question": "What does the `--tail` option do in the `docker logs` command?",
+            "options": ["It shows only the last N lines of the logs.", "It deletes logs older than N days.", "It tails the log output to a file.", "It filters logs by container name."],
+            "correct_option_id": 0,
+            "explanation": "The `--tail` option in the `docker logs` command shows the last N lines of the container's logs."
+        },
+        {
+            "question": "Which command will display the logs of a container with timestamps?",
+            "options": ["docker logs --time <container-id>", "docker logs --timestamp <container-id>", "docker logs --show-time <container-id>", "docker logs --timestamps <container-id>"],
+            "correct_option_id": 3,
+            "explanation": "The `--timestamps` option in `docker logs` displays logs with the corresponding timestamps."
+        },
+        {
+            "question": "If a container has been stopped, how can you still view its logs?",
+            "options": ["It’s not possible to view logs of stopped containers.", "Use docker logs <container-id> as usual.", "Use docker logs --stopped <container-id>.", "Use docker logs --replay <container-id>."],
+            "correct_option_id": 1,
+            "explanation": "You can still view logs of stopped containers using `docker logs <container-id>`."
+        },
+        {
+            "question": "What will the following command display: `docker logs -n 50 <container-id>`?",
+            "options": ["The most recent 50 log lines from the container.", "The logs of the last 50 seconds of container activity.", "The top 50 processes running in the container.", "The logs from the first 50 seconds of container creation."],
+            "correct_option_id": 0,
+            "explanation": "`docker logs -n 50 <container-id>` displays the last 50 lines of the container's logs."
+        },
+        {
+            "question": "How can you retrieve logs for a specific time range from a container?",
+            "options": ["docker logs --since <time>", "docker logs --between <start-time> <end-time>", "docker logs --range <start-time> <end-time>", "docker logs --date <time-range>"],
+            "correct_option_id": 0,
+            "explanation": "You can use `docker logs --since <time>` to retrieve logs from a specific time onward."
+        },
+        {
+            "question": "How can you clear logs of a container?",
+            "options": ["docker logs --clear <container-id>", "docker container prune-logs", "You cannot directly clear logs, you have to delete and recreate the container.", "docker logs --flush <container-id>"],
+            "correct_option_id": 2,
+            "explanation": "You cannot directly clear logs in Docker. You must delete and recreate the container to clear its logs."
+        },
+        {
+            "question": "Which command removes all stopped containers?",
+            "options": ["docker rm -a", "docker prune containers", "docker container prune", "docker system rm"],
+            "correct_option_id": 2,
+            "explanation": "The `docker container prune` command is used to remove all stopped containers."
+        },
+        {
+            "question": "What does the `-f` option do in the `docker rm` command?",
+            "options": ["It removes the container by its name.", "It forces the removal of running containers.", "It finds and deletes unused containers.", "It filters the containers based on status."],
+            "correct_option_id": 1,
+            "explanation": "The `-f` option in `docker rm` forces the removal of a running container."
+        },
+        {
+            "question": "How can you remove multiple containers at once?",
+            "options": ["By listing their IDs or names separated by spaces in the docker rm command", "Using docker rm -a", "Running docker rm --all", "It’s not possible to delete multiple containers at once."],
+            "correct_option_id": 0,
+            "explanation": "You can remove multiple containers at once by listing their IDs or names separated by spaces in the `docker rm` command."
+        },
+        {
+            "question": "Which command will remove all containers, images, and networks not associated with a running container?",
+            "options": ["docker system prune", "docker container rm -a", "docker prune all", "docker remove all --force"],
+            "correct_option_id": 0,
+            "explanation": "The `docker system prune` command removes all unused containers, images, and networks."
         }
     ]
 }
